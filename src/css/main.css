@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
+
+:root {
+  --color-blue: #182c61;
+  --color-white-primaria: #fff;
+  --color-white-secundaria: #ecf0f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body,
+input,
+button {
+  font-family: "Saira", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: var(--color-blue);
+  color: var(--color-white-secundaria);
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.125rem;
+}
+
+header nav li a {
+  display: inline-block;
+  margin-left: 1rem;
+  color: var(--color-white-secundaria);
+}
+
+header .container h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header,
+section h2,
+section h3,
+form button {
+  font-family: 'Saira', sans-serif;
+  font-weight: normal;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands_list img {
+  height: 1.5rem;
+}
+
+.brands_list li {
+  display: inline-block;
+  margin-top: 1.25rem;
+  margin-right: 1rem;
+}
+
+section {
+  padding: 1.5rem 0;
+  color: var(--color-blue);
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  color: var(--color-blue);
+}
+
+section p {
+  margin-bottom: 0.5rem;
+}
+
+.store-front {
+  margin-right: 2rem;
+}
+
+.social-links img {
+  height: 1.5rem;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 20rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+form textarea {
+  resize: none;
+  height: 11.25rem;
+}
+
+section h3 {
+  margin-bottom: 1.5625rem;
+}
+
+form button{
+  background-color: var(--color-blue);
+  color: var(--color-white-secundaria);
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #213e8b;
+}
+
+input:focus textarea:focus {
+  outline-color: var(--color-blue);
+}
+
+footer {
+  background-color: var(--color-blue);
+  color: var(--color-white-secundaria);
+  padding: 1rem 0;
+  text-align: center;
+}
