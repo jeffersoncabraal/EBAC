@@ -3,21 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modulo de HTML - Exercicio_html</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>GameShop a sua loja de games - Projeto 01 EBAC</title>
   </head>
   <body>
-    <main>
-      <form>
-        <h1>Formulário de cadastro</h1>
+    <header>
+      <div class="container">
+        <h1>GameShop</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Sobre a loja</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <img
+          class="store-front"
+          src="./src/images/loja.jpg"
+          alt="Fachada da loja Gameshop"
+        />
         <div>
-          <label id="nome"> Nome </label>
-          <input type="text" placeholder="Digite seu nome" /><br/>
-          <label id="email">E-mail</label>
-          <input type="email" placeholder="Digite seu E-mail" /><br/>
-          <label id="password"> Senha </label>
-          <input type="password" placeholder="Digite sua senha" /><br/>
-        <button type="submit">Cadastrar</button>
-      </form>
-    </main>
+          <h2>Sobre a loja</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, distinctio tempora? Quod exercitationem corporis
+            ratione eligendi numquam?
+          </p>
+          <p>
+            Dolorum iure accusamus eveniet voluptate quae magnam error, quam
+            aperiam, cum deleniti deserunt.
+          </p>
+          <ul class="brands_list">
+            <li>
+              <img src="./src/images/nintendo.png" alt="Nintendo" />
+            </li>
+            <li>
+              <img src="./src/images/xbox.png" alt="Xbox" />
+            </li>
+            <li>
+              <img src="./src/images/playstation.png" alt="playstation" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+          <div>
+            <h3>Fale conosco</h3>
+            <form>
+              <input type="text" placeholder="Seu nome" />
+              <input type="email" placeholder="Seu e-mail" required />
+              <input type="tel" placeholder="Seu telefone" required />
+              <textarea placeholder="Sua mensagem" required ></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe</h3>
+            <ul class="social-links">
+              <li>
+                <a href="#" title="Siga-nos no instagram">
+                  <img src="./src/images/instagram.png" alt="Logo instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no facebook">
+                  <img src="./src/images/facebook.png" alt="Logo facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no youtube">
+                  <img src="./src/images/youtube.png" alt="Logo youtube" />
+                </a>
+              </li>
+            </ul>
+          </div>-
+          <div>
+            <h3>Venha até nos</h3>
+            <p>
+              Rua Javascript nº 120, vila Html - São Paulo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Desenvolvido por Jefferson através do curso Engenheiro Front-end Ebac - 2023</p>
+      </div>
+    </footer>
   </body>
 </html>
